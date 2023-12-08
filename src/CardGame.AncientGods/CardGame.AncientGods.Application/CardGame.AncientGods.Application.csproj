@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\CardGame.Common\CardGame.Common.csproj" />
+      <ProjectReference Include="..\CardGame.AncientGods.Core\CardGame.AncientGods.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit.EntityFrameworkCore" Version="8.1.2-develop.1580" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.2-develop.1580" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+</Project>
